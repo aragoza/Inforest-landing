@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>InForêt — comprendre l'état des forêts, sans être expert</title>
+  <meta name="description" content="InForêt rassemble une carte interactive des forêts, un fil d'actualités personnalisé et un mail hebdomadaire, en français. Projet de portfolio réalisé à Holberton School.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="InForêt — comprendre l'état des forêts, sans être expert">
+  <meta property="og:description" content="Une carte, un fil d'actualités et un mail hebdomadaire, en français.">
+  <meta property="og:image" content="assets/cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#haut">InForêt</a>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#fonctionnalites">Fonctionnalités</a>
+      <a href="#a-propos">À propos</a>
+      <a href="#equipe">L'équipe</a>
+    </nav>
+
+    <!-- REMPLACE l'adresse ci-dessous par celle de ton application déployée. -->
+    <a class="button header-button" href="https://REMPLACER-PAR-URL-APPLICATION">
+      Ouvrir l'application
+    </a>
+  </header>
+
+  <main id="haut">
+
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>InForêt</h1>
+        <p class="tagline">
+          Comprendre l'état des forêts dans le monde, en français, sans être expert.
+        </p>
+
+        <!-- REMPLACE l'adresse ci-dessous par celle de ton application déployée. -->
+        <a class="button big" href="https://REMPLACER-PAR-URL-APPLICATION">
+          Ouvrir l'application
+        </a>
+      </div>
+
+      <img class="cover" src="assets/forest-bg-vert.svg"
+           alt="Illustration d'une forêt de conifères en aplats verts, plantés sur trois rangs de collines brunes.">
+    </section>
+
+    <section id="fonctionnalites" class="section">
+      <h2>Fonctionnalités</h2>
+      <p class="section-lead">
+        Quatre fonctionnalités, pensées pour un public curieux mais non spécialiste.
+      </p>
+
+      <article class="feature">
+        <img src="assets/feature-carte.png"
+             alt="Capture d'écran de la carte des forêts d'InForêt, avec ses trois couches de lecture.">
+        <div class="feature-text">
+          <h3>Une carte interactive des forêts</h3>
+          <p>
+            Trois couches de lecture permettent de voir où la forêt se maintient,
+            où elle recule et où elle repousse. Les filtres de base sont ouverts à
+            tous, les filtres avancés sont réservés aux membres.
+          </p>
+        </div>
+      </article>
+
+      <article class="feature">
+        <img src="assets/feature-actualites.png"
+             alt="Capture d'écran du fil d'actualités, avec la recherche et les articles français affichés en premier.">
+        <div class="feature-text">
+          <h3>Un fil d'actualités personnalisé</h3>
+          <p>
+            Les flux RSS de plusieurs médias sont collectés trois fois par jour.
+            Les adresses sont nettoyées de leurs paramètres de suivi, les doublons
+            supprimés grâce à une empreinte, et chaque article est rattaché à un
+            pays. Un membre voit d'abord les actualités du pays qu'il suit.
+          </p>
+        </div>
+      </article>
+
+      <article class="feature">
+        <img src="assets/feature-decouverte.png"
+             alt="Capture d'écran du flux de connaissances, avec ses trois catégories à code couleur.">
+        <div class="feature-text">
+          <h3>Un flux de connaissances</h3>
+          <p>
+            Des contenus courts, à lire en une minute, répartis en trois catégories
+            repérables à leur couleur : informations scientifiques, pertes de
+            couverture et informations diverses. Une découverte est mise en avant
+            chaque jour.
+          </p>
+        </div>
+      </article>
+
+      <article class="feature">
+        <img src="assets/feature-mail.png"
+             alt="Capture d'écran du mail hebdomadaire, avec cinq articles et le lien de désinscription.">
+        <div class="feature-text">
+          <h3>Un mail hebdomadaire</h3>
+          <p>
+            Chaque lundi à 8 h, une tâche planifiée envoie les actualités de la
+            semaine, en commençant par celles du pays suivi. L'inscription est
+            facultative, et chaque mail porte un lien de désinscription qui
+            fonctionne en un clic, sans connexion, comme l'exige le RGPD.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="a-propos" class="section">
+      <h2>À propos du projet</h2>
+
+      <!--
+        ===================================================================
+        À RÉÉCRIRE AVEC TES PROPRES MOTS. C'est la seule partie que
+        personne ne peut écrire à ta place, et c'est celle que l'on
+        remarque le plus.
+
+        Réponds à trois questions, en trois ou quatre phrases :
+          1. Quel moment précis t'a donné l'idée ? Une promenade, un
+             reportage, un incendie près de chez toi, une recherche
+             infructueuse sur internet...
+          2. Qu'as-tu cherché sans le trouver ?
+          3. Pourquoi ça comptait pour toi, personnellement ?
+
+        Évite « parce que l'école demandait un projet ». Garde le « je ».
+        ===================================================================
+      -->
+      <p class="story">
+        [Raconte ici le moment précis qui t'a donné l'idée d'InForêt, et ce que
+        tu as cherché sans le trouver. Trois ou quatre phrases à la première
+        personne suffisent.]
+      </p>
+
+      <p>
+        Ce que j'ai constaté en cherchant, en revanche, est facile à résumer.
+        L'information sur les forêts existe, mais elle est difficile d'accès. Les
+        grands sites de suivi sont en anglais et s'adressent à des chercheurs ou à
+        des spécialistes de la donnée satellite. Dans les médias généralistes, à
+        l'inverse, les incendies et la déforestation apparaissent de façon
+        dispersée, sans aucun suivi dans le temps. Il manquait un endroit
+        francophone où un lecteur curieux puisse comprendre, et surtout suivre.
+      </p>
+
+      <h3>Le déroulé</h3>
+      <ul class="timeline">
+        <li>
+          <strong>Septembre 2026</strong> — Cadrage : cibles, périmètre du MVP,
+          maquettes et choix de l'identité visuelle.
+        </li>
+        <li>
+          <strong>Octobre 2026</strong> — Le cœur applicatif : modèles, collecte
+          des flux RSS, déduplication, comptes utilisateurs et carte.
+        </li>
+        <li>
+          <strong>Novembre 2026</strong> — Mail hebdomadaire, conteneurisation,
+          suite de tests, documentation, page de présentation et référencement.
+        </li>
+      </ul>
+
+      <h3>Sous le capot</h3>
+      <p>
+        InForêt est une application Django, servie par PostgreSQL, avec Celery et
+        Redis pour les tâches planifiées, le tout conteneurisé avec Docker. La
+        suite compte plus de cent trente tests. Les polices sont hébergées sur le
+        site et aucune image distante n'est chargée, afin de ne transmettre
+        l'adresse IP d'aucun visiteur à un tiers.
+      </p>
+
+      <p class="holberton">
+        Ce projet est le projet de portfolio de fin de formation à
+        <a href="https://www.holbertonschool.com/">Holberton School</a>.
+      </p>
+    </section>
+
+    <section id="equipe" class="section">
+      <h2>L'équipe</h2>
+      <p class="section-lead">
+        InForêt est un projet individuel, de la conception au déploiement.
+      </p>
+
+      <div class="member">
+        <h3>Elliot Charlet</h3>
+        <p>Conception, développement back-end et front-end, tests et déploiement.</p>
+        <ul class="links">
+          <!-- REMPLACE les deux adresses ci-dessous par les tiennes. -->
+          <li><a href="https://https://www.linkedin.com/in/elliot-charlet/">LinkedIn</a></li>
+          <li><a href="https://github.com/aragoza">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="https://github.com/aragoza/Inforest">Dépôt GitHub du projet</a>
+      ·
+      <a href="https://www.holbertonschool.com/">Holberton School</a>
+    </p>
+    <p class="small">InForêt — projet de portfolio, 2026.</p>
+  </footer>
+
+</body>
+</html>
